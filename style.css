@@ -1,0 +1,43 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: violet;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 1rem 0;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #a855f7;
+}
+.task-form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100%;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.task button{
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
